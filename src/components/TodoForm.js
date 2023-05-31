@@ -28,7 +28,7 @@ function TodoForm() {
 
   return (
     <div className="px-4 my-6 sm:px-20 sm:my-12">
-      <h1 className="font-semibold text-center sm:text-left text-[#29857f] text-2xl mb-4">
+      <h1 className="font-semibold text-center sm:text-left text-my-green-800 text-2xl mb-4">
         Add Task ✏️
       </h1>
 
@@ -49,7 +49,7 @@ function TodoForm() {
 
         <button
           type="submit"
-          className="h-12 px-6 bg-[#29857f] rounded-lg border-none text-white font-semibold transition-all ease-in-out duration-300 active:scale-50"
+          className="h-12 px-6 bg-my-green-800 rounded-lg border-none text-white font-semibold transition-all ease-in-out duration-300 active:scale-50"
         >
           ADD
         </button>
